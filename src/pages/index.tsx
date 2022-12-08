@@ -10,18 +10,12 @@ export default function Home() {
 
   return (
     <LayoutComponent>
-      <div
-        className={` 
-          flex justify-center items-center h-screnn w-full bg-house-01 bg-no-repeat bg-cover 
-          bg-center background-clip:border-box cursor-pointer`}
-      >
-        <ButtonComponent
-          className="bg-green-secundary h-[80px] w-[300px] rounded-[20px] opacity-50 
+      <ButtonComponent
+        className="bg-green-primary h-[80px] w-[300px] rounded-[20px] opacity-50 
             hover:opacity-100 hover:shadow-lg"
-          titleClassname="tracking-[.25em] font-thin  text-[20px] text-white font-futura-pt"
-          title="RESERVAR"
-        />
-      </div>
+        titleClassname="tracking-[.25em] font-thin  text-[20px] text-white font-futura-pt"
+        title="RESERVAR"
+      />
       {/* {imageModalIsOpen && (
         <ModalComponent
           onClose={() => handleCloseImageModal && handleCloseImageModal()}
