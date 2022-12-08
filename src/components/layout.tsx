@@ -9,7 +9,7 @@ export default function LayoutComponent({ children }: LayoutComponentProps) {
   return (
     <div
       className="h-screen relative  flex justify-center items-center h-screnn w-full bg-house-01 bg-no-repeat bg-cover 
-    bg-center background-clip:border-box cursor-pointer"
+    bg-center background-clip:border-box"
     >
       <HeaderComponent />
       {children}
