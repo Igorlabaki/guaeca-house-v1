@@ -20,7 +20,7 @@ export function LinkComponent({ title, href, className }: LinkComponentProps) {
     `}
       href={href}
     >
-      {title}
+      <p className="font-200">{title}</p>
     </Link>
   );
 }

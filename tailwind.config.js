@@ -9,7 +9,8 @@ module.exports = {
         'green-secundary': '#2a696e',
         'gray-bg': '#978f7c',
         'black-pattern': "#121210",
-        'white-pattern': '#e9eaef'
+        'white-pattern': '#e9eaef',
+        'white-header': 'rgb(255, 255, 255,0.8)'
       },
       fontFamily: {
           'brandon-gro': [ "brandon-grotesque", 'sans-serif'],

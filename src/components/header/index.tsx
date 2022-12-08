@@ -5,7 +5,7 @@ export default function HeaderComponent() {
   return (
     <div
       className="w-[100%] px-[45px] h-[130px] flex justify-between items-center gap-[80px] absolute
-    bg-gradient-to-b from-white to-transparent"
+    bg-gradient-to-b from-white-header to-transparent"
     >
       <div className="z-20">
         <ImageComponent
