@@ -6,7 +6,9 @@ interface ImageComponentProps {
   h: string;
   src: string;
   alt: string;
+  onclik?: () => void;
   imageClassname?: string;
+  containerClassname?: string;
 }
 
 export function ImageComponent({
@@ -14,16 +16,19 @@ export function ImageComponent({
   h,
   src,
   alt,
+  onclik,
   imageClassname,
+  containerClassname,
 }: ImageComponentProps) {
   return (
-    <div className={`${w} ${h} relative`}>
+    <div className={`${w} ${h} relative ${containerClassname}`}>
       <Image
         src={src}
         alt={alt}
         layout="fill"
         objectFit={"cover"}
         className={`h-full w-full ${imageClassname}`}
+        onClick={() => onclik && onclik()}
       />
     </div>
   );

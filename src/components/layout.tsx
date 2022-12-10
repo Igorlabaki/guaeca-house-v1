@@ -7,10 +7,7 @@ interface LayoutComponentProps {
 }
 export default function LayoutComponent({ children }: LayoutComponentProps) {
   return (
-    <div
-      className="h-screen relative  flex justify-center items-center h-screnn w-full bg-house-01 bg-no-repeat bg-cover 
-    bg-center background-clip:border-box"
-    >
+    <div className="h-screen w-full relative flex flex-col justify-center items-center">
       <HeaderComponent />
       {children}
       <FooterComponent />
