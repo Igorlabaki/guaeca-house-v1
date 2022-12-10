@@ -14,12 +14,15 @@ export function NavigationComponent({
   className,
 }: NavigationComponentProps) {
   const router = useRouter();
+  console.log(title.toLocaleLowerCase().trim());
   return (
     <Link
       className={`
        text-green-primary transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none
        ${router.asPath === "/" && title === "HOME" && "font-bold"}
-       ${router.asPath.includes(title.toLocaleLowerCase()) && "font-bold"}
+       ${
+         router.asPath.includes(title.toLocaleLowerCase().trim()) && "font-bold"
+       }
     `}
       href={href}
     >

@@ -65,7 +65,7 @@ export default function Galeria() {
                   />
                 )}
               </div>
-              <p className="text-white text-4xl">
+              <p className="text-lg text-center font-brandon-gro font-bold text-green-primary mt-4">
                 {imageBgList[imageIndex]?.area}
               </p>
             </div>

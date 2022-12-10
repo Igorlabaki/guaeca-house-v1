@@ -17,9 +17,9 @@ export default function HeaderComponent() {
       </div>
       <div className="flex justify-start items-center gap-[25px] font-brandon-gro text-[18px] z-20">
         <NavigationComponent href="/" title="HOME" />
-        <NavigationComponent href="/sobreCasa" title="SOBRE A CASA" />
+        <NavigationComponent href="/sobre" title="SOBRE" />
         <NavigationComponent href="/galeria" title="GALERIA" />
-        <NavigationComponent href="/#" title="HISTORIA DE GUAECA" />
+        <NavigationComponent href="/praia" title="PRAIA" />
         <NavigationComponent href="/#" title="AVALIACOES" />
         <NavigationComponent href="/#" title="CONTATO" />
         <NavigationComponent href="/#" title="OUTRAS LOCACOES" />
