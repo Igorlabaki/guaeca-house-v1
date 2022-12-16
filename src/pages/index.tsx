@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <LayoutComponent>
       <div
-        className="h-screen relative  flex justify-center items-center h-screnn w-full bg-house-01 bg-no-repeat bg-cover 
+        className="h-screen relative  flex justify-center items-center h-screnn w-full bg-house-01 bg-no-repeat bg-contain 
     bg-center background-clip:border-box"
       >
         <ButtonComponent
