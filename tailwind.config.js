@@ -17,7 +17,7 @@ module.exports = {
           'futura-pt': [ "futura-pt", 'sans-serif']
       },
       backgroundImage: {
-        'house-01': "url('/images/guaeca.png')",
+        'house-01': "url('/images/teste.jpeg')",
       },
       keyframes: {
         opacityEffect: {
