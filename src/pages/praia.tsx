@@ -25,18 +25,20 @@ export default function PraiaDeGuaeca() {
         <CarrocelComponent />
         <div className="flex  mt-5 gap-5 h-[300px]">
           <div className="text-green-primary font-brandon-gro  flex  flex-col gap-y-5  w-[50%] text-justify">
-            <p className="text-2xl text-center font-bold">Localizacao</p>
-            <p className="text-lg">
-              Localizada no municipio de São Sebastião (o mesmo onde estão as
-              praias mais nobres do Litoral Norte, como a Praia da Baleia,
-              Camburi e Maresias), Guaecá fica a 208 km da capital paulista.
-              Quem vem de avião e chega em Guarulhos, pode descer a Rodovia
-              Mogi-Bertioga até a Rio-Santos (BR-101) e dirigir sentido Guaecá.
-              A partir de São Paulo, são 3h30 de viagem de carro pela rodovia
-              Rio-Santos.
+            {/* <p className="text-5xl text-center font-bold">Localizacao</p> */}
+            <p className="text-[20px] w-[80%] m-auto">
+              <span className="font-bold">
+                Localizada no municipio de São Sebastião{" "}
+              </span>{" "}
+              (o mesmo onde estão as praias mais nobres do Litoral Norte, como a
+              Praia da Baleia, Camburi e Maresias), Guaecá fica a 208 km da
+              capital paulista. Quem vem de avião e chega em Guarulhos, pode
+              descer a Rodovia Mogi-Bertioga até a Rio-Santos (BR-101) e dirigir
+              sentido Guaecá. A partir de São Paulo, são 3h30 de viagem de carro
+              pela rodovia Rio-Santos.
             </p>
           </div>
-          <div className="w-[50%] bg-gray-200 rounded-lg overflow-hidden ">
+          <div className="w-[50%] bg-gray-200 rounded-lg overflow-hidden shadow-lg">
             {isLoaded ? (
               <GoogleMap
                 mapContainerStyle={containerStyle}
